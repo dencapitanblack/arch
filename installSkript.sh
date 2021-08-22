@@ -64,7 +64,7 @@ mount /dev/sda4 /mnt/home
 swapon /dev/sda5
 
 #Installing basic packages
-pacstrap /mnt base linux linux-firmware base-devel
+pacstrap /mnt base linux linux-firmware
 
 #Creatin an FSTAB
 genfstab -U /mnt >> /mnt/etc/fstab
