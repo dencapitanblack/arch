@@ -1,1 +1,3 @@
-ping ya.ru
+fdisk /dev/sda
+g
+w
