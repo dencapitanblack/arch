@@ -5,6 +5,8 @@ g
 w
 STDIO
 
+read -p "Press Enter to continue"
+
 fdisk /dev/sda << STDIO
 n
 1
@@ -12,6 +14,8 @@ n
 411647
 w
 STDIO
+
+read -p "Press Enter to continue"
 
 fdisk /dev/sda << STDIO
 n
@@ -21,12 +25,16 @@ n
 w
 STDIO
 
+read -p "Press Enter to continue"
+
 fdisk /dev/sda << STDIO
 t
 2
 4
 w
 STDIO
+
+read -p "Press Enter to continue"
 
 fdisk /dev/sda << STDIO
 n
@@ -36,6 +44,8 @@ n
 w
 STDIO
 
+read -p "Press Enter to continue"
+
 fdisk /dev/sda << STDIO
 n
 4
@@ -44,6 +54,8 @@ n
 w
 STDIO
 
+read -p "Press Enter to continue"
+
 fdisk /dev/sda << STDIO
 n
 5
@@ -51,5 +63,7 @@ n
 16777182
 w
 STDIO
+
+read -p "Press Enter to continue"
 
 #End
