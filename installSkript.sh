@@ -21,10 +21,6 @@ n
 t
 2
 4
-w
-STDIO
-
-fdisk /dev/sda << STDIO
 n
 3
 821248 
