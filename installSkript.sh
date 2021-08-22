@@ -26,14 +26,6 @@ STDIO
 
 fdisk /dev/sda << STDIO
 n
-3
-821248 
-9209855
-w
-STDIO
-
-fdisk /dev/sda << STDIO
-n
 4
 9209856
 14661631
@@ -45,6 +37,14 @@ n
 5
 14661632
 16777182
+w
+STDIO
+
+fdisk /dev/sda << STDIO
+n
+3
+
+9209855
 w
 STDIO
 
