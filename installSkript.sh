@@ -59,7 +59,7 @@ read -p "Press Enter to continue"
 fdisk /dev/sda << STDIO
 n
 3
-821248 
+
 9209855
 w
 STDIO
