@@ -18,9 +18,17 @@ n
 2
 411648
 821247
+w
+STDIO
+
+fdisk /dev/sda << STDIO
 t
 2
 4
+w
+STDIO
+
+fdisk /dev/sda << STDIO
 n
 3
 821248 
