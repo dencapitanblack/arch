@@ -5,4 +5,4 @@ g
 w
 
 EEOF
-exit 0
+
