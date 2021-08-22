@@ -42,7 +42,7 @@ STDIO
 
 fdisk /dev/sda << STDIO
 n
-4
+5
 14661632
 16777182
 w
