@@ -1,5 +1,4 @@
 # arch
-Installation arch
 Quick installation of arch on virtualbox
 For start you have to do next the following actions:
 1) pacman -Sy unzip --noconfirm
