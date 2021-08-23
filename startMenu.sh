@@ -14,7 +14,7 @@ function startMenu() {
     1)
       echo "Create GPT and and creating sections"
       chmod ugo+rwx gptWithSection.sh
-      ./gptWithSection.sh 3 >> errors.log
+      ./gptWithSection.sh 2 >> errors.log 1 >> sout.log
       startMenu
       ;;
 
