@@ -50,6 +50,10 @@ genfstab -U /mnt >> /mnt/etc/fstab
 
 #log in to the system
 arch-chroot /mnt
+echo "unmounted" 
 ln -s /usr/share/zoneinfo/Europe/Moscow /etc/localtime
+echo "unmounted"
 hwclock --systohc --utc
+echo "unmounted"
 pacman -S nano
+echo "unmounted"
