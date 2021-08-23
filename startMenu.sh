@@ -14,20 +14,22 @@ function startMenu() {
     1)
       echo "Create GPT and and creating sections"
       chmod ugo+rwx gptWithSection.sh
-      ./gptWithSection.sh
+      ./gptWithSection.sh 3 >> errors.log
       startMenu
       ;;
 
     2)
       echo "Option 2"
       whiptail --title "Option 2" --msgbox "you chose options 2" 8 45
-
+      
+      startMenu
       ;;
 
     3)
       echo "Option 3"
       whiptail --title "Option 3" --msgbox "you chose options 3" 8 45
-
+      
+      startMenu
       ;;
 
     esac
