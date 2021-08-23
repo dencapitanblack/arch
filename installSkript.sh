@@ -42,6 +42,7 @@ n
 w
 STDIO
 
+
 fdisk /dev/sda << STDIO
 n
 3
