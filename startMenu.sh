@@ -27,9 +27,8 @@ function startMenu() {
 
     3)
       echo "Option 3"
-      whiptail --title "Option 3" --msgbox "you chose options 3" 8 45
+      arch-chroot /mnt
       
-      startMenu
       ;;
 
     esac
