@@ -20,8 +20,8 @@ function startMenu() {
 
     2)
       echo "Option 2"
-      whiptail --title "Option 2" --msgbox "you chose options 2" 8 45
-      
+      chmod ugo+rwx formMount.sh
+      ./formMount.sh 2>> std-err.log 1>> std-out.log
       startMenu
       ;;
 
