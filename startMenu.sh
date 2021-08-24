@@ -38,7 +38,7 @@ function startMenu() {
     4)
       echo "Welcome to Bash $BASH_VERSION" > test_textbox
       whiptail --textbox test_textbox 12 80
-      
+      startMenu
       ;;
       
       
