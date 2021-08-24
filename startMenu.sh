@@ -30,7 +30,7 @@ function startMenu() {
 
     3)
       echo "Enter to arch-chroot"
-      arch-chroot /mnt
+      arch-chroot /mnt 2>> std-err.log 1>> std-out.log
       startMenu
       
       ;;
