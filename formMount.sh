@@ -16,6 +16,3 @@ pacstrap /mnt base linux linux-firmware
 
 #Creatin an FSTAB
 genfstab -U /mnt >> /mnt/etc/fstab
-
-#log in to the system
-arch-chroot /mnt
